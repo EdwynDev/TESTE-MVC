@@ -16,9 +16,8 @@ class Router {
             $controller_instance = new $controller();
             $controller_instance->$action();
         } else {
-            // Page 404
-            header('HTTP/1.1 404 Not Found');
-            echo '404 Page Not Found';
+            header('Location index.php');
+            exit;
         }
     }
 }
