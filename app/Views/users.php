@@ -17,13 +17,13 @@
                     <span class="text-xl font-bold text-gray-800">MVC Demo</span>
                 </div>
                 <div class="flex items-center space-x-8">
-                    <a href="/TESTE-MVC/" class="text-gray-800 hover:text-blue-600 transition duration-300">
+                    <a href="/" class="text-gray-800 hover:text-blue-600 transition duration-300">
                         <i class="fas fa-home mr-2"></i>Accueil
                     </a>
-                    <a href="/TESTE-MVC/users" class="text-gray-800 hover:text-blue-600 transition duration-300">
+                    <a href="/users" class="text-gray-800 hover:text-blue-600 transition duration-300">
                         <i class="fas fa-users mr-2"></i>Utilisateurs
                     </a>
-                    <a href="/TESTE-MVC/users/create" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">
+                    <a href="/users/create" class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition duration-300">
                         <i class="fas fa-plus mr-2"></i>Nouvel utilisateur
                     </a>
                 </div>
@@ -66,7 +66,7 @@
                                     </td>
                                     <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500"><?= $user['email'] ?></td>
                                     <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
-                                        <a href="/TESTE-MVC/users/show?id=<?= $user['id'] ?>"
+                                        <a href="/users/show?id=<?= $user['id'] ?>"
                                             class="text-blue-600 hover:text-blue-900 mr-3">
                                             <i class="fas fa-eye mr-1"></i>Voir
                                         </a>

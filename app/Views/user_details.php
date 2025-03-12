@@ -17,10 +17,10 @@
                     <span class="text-xl font-bold text-gray-800">MVC Demo</span>
                 </div>
                 <div class="flex items-center space-x-8">
-                    <a href="/TESTE-MVC/" class="text-gray-800 hover:text-blue-600 transition duration-300">
+                    <a href="/" class="text-gray-800 hover:text-blue-600 transition duration-300">
                         <i class="fas fa-home mr-2"></i>Accueil
                     </a>
-                    <a href="/TESTE-MVC/users" class="text-gray-800 hover:text-blue-600 transition duration-300">
+                    <a href="/users" class="text-gray-800 hover:text-blue-600 transition duration-300">
                         <i class="fas fa-users mr-2"></i>Utilisateurs
                     </a>
                 </div>
@@ -64,7 +64,7 @@
                         </dl>
                     </div>
                     <div class="bg-gray-50 px-4 py-4 sm:px-6">
-                        <a href="/TESTE-MVC/users" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
+                        <a href="/users" class="inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                             <i class="fas fa-arrow-left mr-2"></i>
                             Retour à la liste
                         </a>

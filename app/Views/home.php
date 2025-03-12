@@ -17,10 +17,10 @@
                     <span class="text-xl font-bold text-gray-800">MVC Demo</span>
                 </div>
                 <div class="hidden md:flex items-center space-x-8">
-                    <a href="/TESTE-MVC/" class="text-gray-800 hover:text-blue-600 transition duration-300">
+                    <a href="/" class="text-gray-800 hover:text-blue-600 transition duration-300">
                         <i class="fas fa-home mr-2"></i>Accueil
                     </a>
-                    <a href="/TESTE-MVC/users" class="text-gray-800 hover:text-blue-600 transition duration-300">
+                    <a href="/users" class="text-gray-800 hover:text-blue-600 transition duration-300">
                         <i class="fas fa-users mr-2"></i>Utilisateurs
                     </a>
                 </div>
@@ -63,7 +63,7 @@
         <div class="bg-blue-600 text-white rounded-xl shadow-lg p-8 text-center">
             <h2 class="text-3xl font-bold mb-4">Prêt à commencer ?</h2>
             <p class="mb-6">Explorez la gestion des utilisateurs de notre application.</p>
-            <a href="/TESTE-MVC/users" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+            <a href="/users" class="bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
                 Voir les utilisateurs
             </a>
         </div>

@@ -23,7 +23,7 @@ class UserController extends Controller {
     public function show() {
         $id = isset($_GET['id']) ? (int)$_GET['id'] : 0;
         if ($id <= 0) {
-            $this->redirect('/TESTE-MVC/users');
+            $this->redirect('/users');
         }
         
         $user = $this->userModel->getUserById($id);
@@ -64,7 +64,7 @@ class UserController extends Controller {
             } else {
                 try {
                     $this->userModel->createUser($data['values']['name'], $data['values']['email']);
-                    $this->redirect('/TESTE-MVC/users');
+                    $this->redirect('/users');
                 } catch (\Exception $e) {
                     $data['error'] = $e->getMessage();
                 }

@@ -17,10 +17,10 @@
                     <span class="text-xl font-bold text-gray-800">MVC Demo</span>
                 </div>
                 <div class="flex items-center space-x-8">
-                    <a href="/TESTE-MVC/" class="text-gray-800 hover:text-blue-600 transition duration-300">
+                    <a href="/" class="text-gray-800 hover:text-blue-600 transition duration-300">
                         <i class="fas fa-home mr-2"></i>Accueil
                     </a>
-                    <a href="/TESTE-MVC/users" class="text-gray-800 hover:text-blue-600 transition duration-300">
+                    <a href="/users" class="text-gray-800 hover:text-blue-600 transition duration-300">
                         <i class="fas fa-users mr-2"></i>Utilisateurs
                     </a>
                 </div>
@@ -40,7 +40,7 @@
             <?php endif; ?>
 
             <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                <form method="POST" action="/TESTE-MVC/users/create" class="p-8">
+                <form method="POST" action="/users/create" class="p-8">
                     <div class="mb-6">
                         <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
                             <i class="fas fa-user mr-2"></i>Nom
@@ -62,7 +62,7 @@
                     </div>
 
                     <div class="flex items-center justify-between">
-                        <a href="/TESTE-MVC/users"
+                        <a href="/users"
                             class="inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
                             <i class="fas fa-arrow-left mr-2"></i>
                             Retour
