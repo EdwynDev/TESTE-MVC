@@ -76,7 +76,7 @@ TESTE-MVC/
 
 1. Cloner le repository:
 ```bash
-git clone https://github.com/yourusername/TESTE-MVC.git
+git clone https://github.com/EdwynDev/TESTE-MVC.git
 ```
 
 2. Configuration de la base de données:
