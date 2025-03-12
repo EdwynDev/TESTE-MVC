@@ -2,7 +2,7 @@
 
 ## Description
 Ce projet est une implémentation du pattern MVC (Model-View-Controller) en PHP. Il s'agit d'une application de gestion d'utilisateurs qui démontre les principes fondamentaux de l'architecture MVC.
-
+> - https://testmvc.neopolyworks.fr/
 ## Architecture MVC
 L'architecture MVC divise l'application en trois composants principaux :
 - **Model** : Gère les données et la logique métier
@@ -76,7 +76,7 @@ TESTE-MVC/
 
 1. Cloner le repository:
 ```bash
-git clone https://github.com/yourusername/TESTE-MVC.git
+git clone https://github.com/EdwynDev/TESTE-MVC.git
 ```
 
 2. Configuration de la base de données:
