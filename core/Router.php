@@ -16,7 +16,7 @@ class Router {
             $controller_instance = new $controller();
             $controller_instance->$action();
         } else {
-            header('Location: index.php');
+            header('Location: /');
             exit;
         }
     }
